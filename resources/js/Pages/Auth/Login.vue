@@ -1,10 +1,10 @@
 <script setup>
-import BreezeButton from "@/Components/Button.vue";
-import BreezeCheckbox from "@/Components/Checkbox.vue";
-import BreezeGuestLayout from "@/Layouts/Guest.vue";
-import BreezeInput from "@/Components/Input.vue";
-import BreezeInputError from "@/Components/InputError.vue";
-import BreezeLabel from "@/Components/Label.vue";
+// import BreezeButton from "@/Components/Button.vue";
+// import BreezeCheckbox from "@/Components/Checkbox.vue";
+// import BreezeGuestLayout from "@/Layouts/Guest.vue";
+// import BreezeInput from "@/Components/Input.vue";
+// import BreezeInputError from "@/Components/InputError.vue";
+// import BreezeLabel from "@/Components/Label.vue";
 import { Head, Link, useForm } from "@inertiajs/inertia-vue3";
 
 defineProps({
@@ -20,7 +20,7 @@ const form = useForm({
 
 const submit = () => {
     console.log("test");
-    form.post(route("login"), {
+    form.post('/login', {
         //onFinish: () => form.reset('password'),
     });
 };

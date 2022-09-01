@@ -31,7 +31,7 @@ import { Link } from "@inertiajs/inertia-vue3";
 export default {
     methods: {
         logout() {
-            this.$inertia.post(route("logout"));
+            this.$inertia.post('/logout');
         },
     },
 };
