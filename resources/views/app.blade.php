@@ -11,9 +11,9 @@
 
         <!-- Scripts -->
         @routes
-        <link rel="stylesheet" href="{{ mix('css/app.css') }}">
-        <link rel="stylesheet" href="{{ asset('/bootstrap/css/bootstrap.rtl.min.css') }}" />
-        <script src="{{ mix('js/app.js') }}" defer></script>
+        <link rel="stylesheet" href="/css/app.css'">
+        <link rel="stylesheet" href="/bootstrap/css/bootstrap.rtl.min.css" />
+        <script src="/js/app.js" defer></script>
         @inertiaHead
     </head>
     <body class="font-sans antialiased">
