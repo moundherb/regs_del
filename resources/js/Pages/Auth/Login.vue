@@ -39,6 +39,7 @@ const submit = () => {
         >
             <div class="p-3 bg-white" style="width: 500px">
                 <div class="row">
+                    <span>{{route("login")}}</span>
                     <div class="col-12" v-if="form.errors.email">
                         <span
                             class="text-danger float-right"
