@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ @import url('https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap');
+ :root{
+    --color-main: #41b26d;
+}
+body{
+    font-family: 'Readex Pro', sans-serif !important;
+}
+
+.bg-main{
+    background-color: var(--color-main) !important;
+}
+
+.reg a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
